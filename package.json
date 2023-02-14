@@ -1,0 +1,44 @@
+{
+  "name": "klpod221",
+  "version": "1.0.0",
+  "description": "klpod221 portfolio page",
+  "scripts": {
+    "dev": "mix watch",
+    "build": "mix",
+    "compile:css": "node-sass resources/sass/main.scss public/css/main.css",
+    "compile:js": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch:css": "node-sass resources/sass/main.scss public/css/main.css --watch",
+    "watch:js": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "watch": "npm run watch:css && npm run watch:js",
+    "prod": "npm run compile:css && npm run compile:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klpod221/klpod221.git"
+  },
+  "keywords": [
+    "klpod221",
+    "Ken",
+    "Longbottom"
+  ],
+  "author": "klpod221",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klpod221/klpod221/issues"
+  },
+  "homepage": "https://github.com/klpod221/klpod221#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.11",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "jquery": "^3.6.3",
+    "laravel-mix": "^6.0.49",
+    "node-sass": "^8.0.0",
+    "tsparticles": "^2.9.3"
+  },
+  "devDependencies": {
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.58.1",
+    "sass-loader": "^13.2.0"
+  }
+}
