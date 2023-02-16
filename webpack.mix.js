@@ -5,13 +5,13 @@ mix.disableNotifications();
 
 mix.setPublicPath('public');
 
-mix.js('resources/js/main.js', 'public/js');
+mix.js('app/resources/js/main.js', 'public/js');
 
-mix.sass('resources/sass/main.scss', 'public/css');
+mix.sass('app/resources/sass/main.scss', 'public/css');
 
-mix.copy('resources/images', 'public/images');
+mix.copy('app/resources/images', 'public/images');
 
-mix.copy('resources/lib', 'public/lib');
+mix.copy('app/resources/lib', 'public/lib');
 
 mix.browserSync({
     proxy: process.env.APP_URL,
@@ -19,9 +19,10 @@ mix.browserSync({
     open: false,
     files: [
         '*.php',
-        'resources/js/*.js',
-        'resources/sass/*.scss',
-        'resources/images/*',
-        'resources/lib/*'
+        'app/resources/js/*.js',
+        'app/resources/sass/*.scss',
+        'app/resources/images/*',
+        'app/resources/lib/*',
+        'app/**/*.php'
     ]
 });

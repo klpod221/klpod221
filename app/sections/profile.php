@@ -18,7 +18,7 @@
         </div>
 
         <div class="profile-picture">
-            <img src="https://media.graphassets.com/DYwn6DWwTjKDL9cv4KIj" alt="Ken Longbottom">
+            <img src="public/images/avatar.jpeg" alt="Ken Longbottom">
         </div>
 
         <h1 class="my-name">Ken Longbottom</h1>

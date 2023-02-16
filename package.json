@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "mix watch",
     "build": "mix",
-    "compile:css": "node-sass resources/sass/main.scss public/css/main.css",
+    "compile:css": "node-sass app/resources/sass/main.scss public/css/main.css",
     "compile:js": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch:css": "node-sass resources/sass/main.scss public/css/main.css --watch",
+    "watch:css": "node-sass app/resources/sass/main.scss public/css/main.css --watch",
     "watch:js": "webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
     "watch": "npm run watch:css && npm run watch:js",
     "prod": "npm run compile:css && npm run compile:js"

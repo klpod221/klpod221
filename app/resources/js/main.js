@@ -14,6 +14,7 @@ $(document).ready(async function () {
     console.log('You can find source code of this website at:');
     console.log('http://github.com/klpod221/klpod221');
     console.log('Thanks for visiting my website!');
+    console.log('Have a nice day!');
 
     // Load function 
     await tsParticlesGenerate();
@@ -31,8 +32,6 @@ $(document).ready(async function () {
     });
 
     // Typewriter effect
-    const $typewriter = $('#typewriter');
-
     const typewriter = new Typewriter('#typewriter', {
         loop: true,
         delay: 75,

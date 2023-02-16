@@ -1,3 +1,6 @@
+<?php
+include 'app/vendor/autoload.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,8 +23,18 @@
 
     <main>
         <div class="container">
-            <?php include 'resources/app/header.php'; ?>
-            <?php include 'resources/app/profile.php'; ?>
+            <?php include 'app/sections/header.php'; ?>
+            <?php include 'app/sections/profile.php'; ?>
+
+            <div class="content-wrapper">
+                <div class="content">
+                    <div class="content-clip">
+                        <section class="content-item my-scroll">
+                            <?php include 'app/sections/about.php'; ?>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
