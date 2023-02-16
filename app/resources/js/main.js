@@ -44,6 +44,19 @@ $(document).ready(async function () {
             'Programmer',
         ]
     });
+
+    // section change event
+    $('.change-section-btn').click(function () { 
+        const section = $(this).attr('data-section');
+        const $section = $(`[data-section="${section}"]`);
+
+        $('.change-section-btn').removeClass('active');
+        $(this).addClass('active');
+
+        $('.content-item').removeClass('active');
+
+        $section.addClass('active');
+    });
 });
 
 /**

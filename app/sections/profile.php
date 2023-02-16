@@ -14,6 +14,11 @@
                             <img src="public/images/bg2.jpg" alt="bg2">
                         </div>
                     </div>
+                    <div class="swiper-slide">
+                        <div class="img-wrapper">
+                            <img src="public/images/bg3.jpg" alt="3">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

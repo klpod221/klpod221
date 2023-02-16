@@ -9,12 +9,12 @@ include 'app/vendor/autoload.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>klpod221 | <?php echo $_SERVER['HTTP_HOST']; ?></title>
+    <meta name="description" content="klpod221 | <?php echo $_SERVER['HTTP_HOST']; ?>">
 
     <link rel="stylesheet" href="public/css/main.css">
 
     <link rel="icon" href="public/images/favicon.png" type="image/x-icon">
 
-    <!-- preload image -->
     <link rel="preload" href="public/images/logo/logo_black_bg.png" as="image">
 </head>
 
@@ -29,8 +29,26 @@ include 'app/vendor/autoload.php';
             <div class="content-wrapper">
                 <div class="content">
                     <div class="content-clip">
-                        <section class="content-item my-scroll">
+                        <section class="content-item my-scroll" data-section="comment">
+                            <?php include 'app/sections/comment.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll active" data-section="about">
                             <?php include 'app/sections/about.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll" data-section="resume">
+                            <?php include 'app/sections/resume.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll" data-section="works">
+                            <?php include 'app/sections/works.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll" data-section="blog">
+                            <?php include 'app/sections/blog.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll" data-section="stats">
+                            <?php include 'app/sections/stats.php'; ?>
+                        </section>
+                        <section class="content-item my-scroll" data-section="contact">
+                            <?php include 'app/sections/contact.php'; ?>
                         </section>
                     </div>
                 </div>
