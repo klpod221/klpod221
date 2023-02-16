@@ -11,6 +11,8 @@ mix.sass('resources/sass/main.scss', 'public/css');
 
 mix.copy('resources/images', 'public/images');
 
+mix.copy('resources/lib', 'public/lib');
+
 mix.browserSync({
     proxy: process.env.APP_URL,
     host: 'klpod221.local',
@@ -19,6 +21,7 @@ mix.browserSync({
         '*.php',
         'resources/js/*.js',
         'resources/sass/*.scss',
-        'resources/images/*'
+        'resources/images/*',
+        'resources/lib/*'
     ]
 });
