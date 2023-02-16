@@ -1,3 +1,4 @@
+<?php ?>
 <header>
     <div class="header-group header-hamburger">
         <div class="hamburger">

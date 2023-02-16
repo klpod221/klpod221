@@ -1,3 +1,4 @@
+<?php ?>
 <div class="profile-container">
     <div class="profile">
         <div class="bg-slider">
