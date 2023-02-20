@@ -133,6 +133,9 @@ $(document).ready(async function () {
                 email: email,
                 message: message,
             },
+            headers: {
+                'Accept': 'application/json'
+            },
             success: function (data) {
                 $submitBtn.text('Sent!');
                 showToast('Sent!', 'Message sent successfully!', 'success', 3000);
