@@ -24,7 +24,7 @@ header {
         transition-duration: 0.3s;
         transition-property: width;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        background-color: rgb(209 213 219/1);
+        background-color: rgb(209 213 219);
         width: 75%;
         height: 0.24rem;
       }
@@ -44,7 +44,7 @@ header {
         transition-duration: 0.3s;
         transition-property: all;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        color: rgb(209 213 219/1);
+        color: rgb(209 213 219);
         font-size: 2.25rem;
         line-height: 2.5rem;
       }
@@ -69,8 +69,8 @@ header {
     overflow: hidden;
 
     &__item {
-      color: rgb(209 213 219/1);
-      background-color: rgb(17 24 39/1);
+      color: rgb(209 213 219);
+      background-color: rgb(17 24 39);
       position: relative;
       height: 7.2rem;
       display: flex;
@@ -114,7 +114,7 @@ header {
       &.active {
         svg,
         p {
-          color: rgb(245 158 11/1);
+          color: rgb(245 158 11);
         }
       }
     }

@@ -57,6 +57,20 @@ a {
   text-decoration: inherit;
 }
 
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+[role="button"],
+button {
+  cursor: pointer;
+}
+
 .my-scroll::-webkit-scrollbar {
   width: 6px;
   background-color: transparent;
@@ -77,6 +91,10 @@ a {
 .my-scroll::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 0.6rem;
+}
+
+#_no-clickjacking-0 {
+  opacity: inherit !important;
 }
 
 #tsparticles {
@@ -181,7 +199,7 @@ main {
   padding-bottom: 1.5rem;
 
   .content {
-    background-color: rgb(17 24 39/1);
+    background-color: rgb(17 24 39);
     height: 100%;
     position: relative;
 
@@ -192,7 +210,7 @@ main {
       left: 0;
       right: 0.7rem;
       z-index: 30;
-      background-color: rgb(17 24 39/1);
+      background-color: rgb(17 24 39);
       height: 1.5rem;
     }
 
@@ -251,7 +269,7 @@ main {
     position: relative;
     margin-left: 3rem;
     font-size: 1.875rem;
-    color: rgb(209 213 219/1);
+    color: rgb(209 213 219);
     line-height: 2.25rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -305,5 +323,41 @@ main {
   }
 }
 
+menu,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  row-gap: 0.5rem;
+  margin-top: 2.5rem;
+
+  li {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: rgb(209 213 219);
+
+    span {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      text-transform: none;
+      color: rgb(156 163 175);
+    }
+
+    .text-dot {
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
 @import "header";
 @import "profile";
+@import "contact";

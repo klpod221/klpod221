@@ -46,16 +46,52 @@ $(document).ready(async function () {
     });
 
     // section change event
-    $('.change-section-btn').click(function () { 
+    $('.change-section-btn').click(function () {
+        if ($(this).hasClass('active')) return;
+
         const section = $(this).attr('data-section');
         const $section = $(`[data-section="${section}"]`);
 
         $('.change-section-btn').removeClass('active');
         $(this).addClass('active');
 
-        $('.content-item').removeClass('active');
+        anime({
+            targets: '.content-item.active',
+            clipPath: [
+                { value: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', duration: 0 },
+                { value: 'polygon(0 0, 0 0, 0 100%, 0 100%)', duration: 500 },
+            ],
+            opacity: [
+                { value: 1, duration: 0 },
+                { value: 0, duration: 500 },
+            ],
+            easing: 'easeInOutQuad',
+            complete: function () {
+                $('.content-item').removeClass('active');
+                $section.addClass('active');
 
-        $section.addClass('active');
+                anime({
+                    targets: '.content-item.active',
+                    clipPath: [
+                        { value: 'polygon(0 0, 0 0, 0 100%, 0 100%)', duration: 0 },
+                        { value: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', duration: 500 },
+                    ],
+                    opacity: [
+                        { value: 0, duration: 0 },
+                        { value: 1, duration: 500 },
+                    ],
+                    easing: 'easeInOutQuad',
+                });
+            }
+        });
+
+        const $noClickJacking = $('#_no-clickjacking-0');
+        $noClickJacking.removeAttr('id');
+    });
+
+    // contact form on click submit-btn
+    $('#contact-form').submit(function (e) {
+        e.preventDefault();
     });
 });
 
