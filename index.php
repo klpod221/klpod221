@@ -11,6 +11,7 @@ include 'app/vendor/autoload.php';
     <title>klpod221 | <?php echo $_SERVER['HTTP_HOST']; ?></title>
     <meta name="description" content="klpod221 | <?php echo $_SERVER['HTTP_HOST']; ?>">
 
+    <link rel="stylesheet" href='public/lib/css/simple-notify.min.css'></link>
     <link rel="stylesheet" href="public/css/main.css">
 
     <link rel="icon" href="public/images/favicon.png" type="image/x-icon">
@@ -71,6 +72,7 @@ include 'app/vendor/autoload.php';
     </div>
 
     <script src='public/lib/js/tsparticles.bundle.min.js'></script>
+    <script src='public/lib/js/simple-notify.min.js'></script>
     <script src="public/js/main.js"></script>
 </body>
 

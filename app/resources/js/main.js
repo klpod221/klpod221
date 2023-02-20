@@ -92,6 +92,67 @@ $(document).ready(async function () {
     // contact form on click submit-btn
     $('#contact-form').submit(function (e) {
         e.preventDefault();
+
+        const $form = $(this);
+        const $submitBtn = $form.find('button[type="submit"]');
+        const $submitBtnWrapper = $submitBtn.parent();
+
+        const $name = $form.find('input[name="name"]');
+        const $email = $form.find('input[name="email"]');
+        const $message = $form.find('textarea[name="message"]');
+
+        const name = $name.val();
+        const email = $email.val();
+        const message = $message.val();
+
+        if (name === '' || email === '' || message === '') {
+            $name.addClass('error');
+            return;
+        }
+
+        const validateEmail = function (email) {
+            var re = /\S+@\S+\.\S+/;
+            return re.test(email);
+        }
+
+        if (!validateEmail(email)) {
+            $email.addClass('error');
+            return;
+        }
+
+        $submitBtn.attr('disabled', true);
+        $submitBtn.text('Sending...');
+
+        $submitBtnWrapper.addClass('btn-loading');
+
+        $.ajax({
+            url: 'https://formspree.io/f/xrgvqqel',
+            method: 'POST',
+            data: {
+                name: name,
+                email: email,
+                message: message,
+            },
+            success: function (data) {
+                $submitBtn.text('Sent!');
+                showToast('Sent!', 'Message sent successfully!', 'success', 3000);
+                $name.val('');
+                $email.val('');
+                $message.val('');
+            },
+            error: function (data) {
+                $submitBtn.text('Error!');
+                showToast('Error!', 'Message sent failed!', 'error', 3000);
+                console.error(data);
+            },
+            complete: function () {
+                setTimeout(function () {
+                    $submitBtn.text('Send Message');
+                    $submitBtnWrapper.removeClass('btn-loading');
+                    $submitBtn.attr('disabled', false);
+                }, 3000);
+            }
+        });
     });
 });
 
@@ -205,10 +266,39 @@ function fakeLoading() {
                 $('.loading').css('transform', 'translateY(calc(100% + 10px))');
                 loadingDots.pause();
 
+                showToast('Welcome', 'Welcome to my portfolio!', 'success', 3000);
+
                 setTimeout(() => {
                     $('.loading').css('display', 'none');
                 }, 1000);
             }, 400);
         }
     }, getRandomArbitrary(100, 400));
+}
+
+/**
+ * Show toast
+ * @param {string} title
+ * @param {string} message
+ * @param {string} type
+ * @param {number} duration
+ */
+function showToast(title, message, type, duration) {
+    const toast = new Notify({
+        status: type,
+        title: title,
+        text: message,
+        effect: 'slide',
+        speed: 400,
+        customClass: '',
+        customIcon: '',
+        showIcon: true,
+        showCloseButton: true,
+        autoclose: true,
+        autotimeout: duration,
+        gap: 20,
+        distance: 20,
+        type: 1,
+        position: 'right top'
+    })
 }

@@ -124,6 +124,18 @@ main {
   z-index: 10;
 }
 
+.notify__title { 
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+.notify__text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
 .loading {
   position: fixed;
   z-index: 9999;
