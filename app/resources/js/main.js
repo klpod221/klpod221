@@ -266,7 +266,7 @@ function fakeLoading() {
                 $('.loading').css('transform', 'translateY(calc(100% + 10px))');
                 loadingDots.pause();
 
-                showToast('Welcome!', 'Have a good day!', 'success', 3000);
+                showToast('Welcome!', 'Have a nice day!', 'success', 3000);
 
                 setTimeout(() => {
                     $('.loading').css('display', 'none');
