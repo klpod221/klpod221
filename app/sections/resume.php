@@ -5,8 +5,8 @@
     </span>
 </div>
 
-<div class="page-content-wrapper">
+<div class="page-content-wrapper with-pd">
     <article class="page-content">
-        coming soon...
+        
     </article>
 </div> 
