@@ -124,7 +124,7 @@ main {
   z-index: 10;
 }
 
-.notify__title { 
+.notify__title {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 0.1em;
@@ -309,8 +309,9 @@ main {
 }
 
 .page-content-wrapper {
-  padding: 2.5rem 3rem;
-
+  &.with-pd {
+    padding: 2.5rem 3rem;
+  }
   .page-content {
     max-width: none;
     font-size: 1rem;
@@ -373,3 +374,4 @@ ul {
 @import "header";
 @import "profile";
 @import "contact";
+@import "about";
