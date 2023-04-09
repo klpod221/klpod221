@@ -1,28 +1,22 @@
-let mix = require('laravel-mix');
-require('dotenv').config();
+const mix = require('laravel-mix');
 
 mix.disableNotifications();
 
 mix.setPublicPath('public');
 
-mix.js('app/resources/js/main.js', 'public/js');
+mix.js('resources/js/main.js', 'public/js/script.js')
+    .sass('resources/sass/main.scss', 'public/css/style.css');
 
-mix.sass('app/resources/sass/main.scss', 'public/css');
+mix.copyDirectory('resources/images', 'public/images');
 
-mix.copy('app/resources/images', 'public/images');
-
-mix.copy('app/resources/lib', 'public/lib');
+mix.copy('index.php', 'public/index.php');
 
 mix.browserSync({
-    proxy: process.env.APP_URL,
-    host: 'klpod221.local',
-    open: false,
+    proxy: 'http://klpod221.local',
     files: [
-        '*.php',
-        'app/resources/js/*.js',
-        'app/resources/sass/*.scss',
-        'app/resources/images/*',
-        'app/resources/lib/*',
-        'app/**/*.php'
-    ]
+        '**/*.php',
+        'public/js/*.js',
+        'public/css/*.css',
+    ],
 });
+
