@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "mix watch",
     "test": "mix test",
-    "build": "mix"
+    "build": "mix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,10 @@
   "bugs": {
     "url": "https://github.com/klpod221/klpod221/issues"
   },
-  "homepage": "https://github.com/klpod221/klpod221#readme",
+  "homepage": "https://klpod221.github.io/klpod221/",
   "dependencies": {
     "browser-sync": "^2.29.1",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.4",
     "laravel-mix": "^6.0.49"
   },
