@@ -11,12 +11,12 @@ mix.copyDirectory('resources/images', 'public/images');
 
 mix.copyDirectory('shared', 'public/shared');
 
-mix.copy('index.php', 'public/index.php');
+mix.copy('index.html', 'public/index.html');
 
 mix.browserSync({
     proxy: 'http://klpod221.local',
     files: [
-        '**/*.php',
+        '**/*.html',
         'public/js/*.js',
         'public/css/*.css',
         'public/images/**/*',

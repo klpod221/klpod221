@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/klpod221/klpod221/issues"
   },
-  "homepage": "https://klpod221.github.io/klpod221/",
+  "homepage": "https://klpod221.github.io/klpod221",
   "dependencies": {
     "browser-sync": "^2.29.1",
     "jquery": "^3.6.4",
