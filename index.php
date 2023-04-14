@@ -5,12 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        <?php
-        $domain = $_SERVER['HTTP_HOST'];
-        echo "Portfolio | " . $domain;
-        ?>
-    </title>
+    <title>Portfolio | klpod221</title>
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/151512c8c9.js" crossorigin="anonymous"></script>
