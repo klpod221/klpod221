@@ -9,6 +9,8 @@ mix.js('resources/js/main.js', 'public/js/script.js')
 
 mix.copyDirectory('resources/images', 'public/images');
 
+mix.copyDirectory('shared', 'public/shared');
+
 mix.copy('index.php', 'public/index.php');
 
 mix.browserSync({
@@ -17,6 +19,9 @@ mix.browserSync({
         '**/*.php',
         'public/js/*.js',
         'public/css/*.css',
+        'public/images/**/*',
     ],
+    open: false,
+    notify: false
 });
 
