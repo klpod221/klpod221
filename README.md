@@ -11,4 +11,6 @@
     <img align="center" src="https://github-readme-stats.vercel.app/api?username=klpod221&show_icons=true&theme=dark&locale=en" alt="klpod221" />
 </p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=klpod221&theme=dark)](https://git.io/streak-stats)
+<p align="left">
+    <img src="https://streak-stats.demolab.com?user=klpod221&theme=dark" alt="klpod221" />
+<p align="left">
