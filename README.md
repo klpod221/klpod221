@@ -4,13 +4,13 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile%20views&color=0e75b6&style=flat" alt="klpod221" /> </p>
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=klpod221&show_icons=true&theme=dark&locale=en&layout=compact" alt="klpod221" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=klpod221&show_icons=true&theme=dark&locale=vi&layout=compact" alt="klpod221" />
 </p>
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=klpod221&show_icons=true&theme=dark&locale=en" alt="klpod221" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=klpod221&show_icons=true&theme=dark&locale=vi" alt="klpod221" />
 </p>
 
 <p align="left">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=klpod221&theme=dark" alt="klpod221" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&theme=dark&locale=vi&layout=compact" alt="klpod221" />
 </p>
