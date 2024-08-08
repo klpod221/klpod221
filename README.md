@@ -1,5 +1,6 @@
 <h1 align="left">Hi 👋, I'm klpod221</h1>
 <h3 align="left">A passionate Full-Stack web developer from Viet Nam</h3>
+<p align="left">"I use Arch, btw"</p>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile%20views&color=0e75b6&style=flat" alt="klpod221" /> </p>
 
