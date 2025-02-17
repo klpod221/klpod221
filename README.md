@@ -13,5 +13,5 @@
 </p>
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact" alt="klpod221" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&show_icons=true&theme=dark&locale=en&layout=compact" alt="klpod221" />
 <p align="left">
