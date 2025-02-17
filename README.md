@@ -13,5 +13,5 @@
 </p>
 
 <p align="left">
-    <img src="https://streak-stats.demolab.com?user=klpod221&theme=dark" alt="klpod221" />
+    ![](https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact)
 <p align="left">
