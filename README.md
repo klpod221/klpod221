@@ -13,5 +13,5 @@
 </p>
 
 <p align="left">
-    [![klpod221's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact" alt="klpod221" />
 <p align="left">
