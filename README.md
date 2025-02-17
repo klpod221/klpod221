@@ -13,5 +13,5 @@
 </p>
 
 <p align="left">
-    ![](https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact)
+    [![klpod221's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.site&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 <p align="left">
