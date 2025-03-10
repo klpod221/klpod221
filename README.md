@@ -5,5 +5,5 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile%20views&color=0e75b6&style=flat" alt="klpod221" /> </p>
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.com&theme=dark&custom_title=Wakapi.dev+Stats+%28All+Time%29&layout=compact" alt="klpod221" />
+    <img align="center" src="https://img.shields.io/endpoint?url=https://wakapi.klpod221.com/api/compat/shields/v1/klpod221/interval:all_time&label=All%20time&color=blue" alt="klpod221" />
 <p align="left">
