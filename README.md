@@ -4,5 +4,8 @@
 
 <p align="left">
     <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile%20views&color=0e75b6&style=flat" alt="klpod221" />
+<p align="left">
+
+<p align="left">
     <img align="center" src="https://img.shields.io/endpoint?url=https://wakapi.klpod221.com/api/compat/shields/v1/klpod221/interval:all_time&label=All%20time&color=blue" alt="klpod221" />
 <p align="left">
