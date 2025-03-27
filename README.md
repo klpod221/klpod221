@@ -7,5 +7,7 @@
 <p align="left">
 
 <p align="left">
+    <img align="center" src="https://wakapi.klpod221.com/api/badge/klpod221/interval:today?label=today" alt="klpod221" />
+    <img align="center" src="https://wakapi.klpod221.com/api/badge/klpod221/klpod221/interval:30_days?label=last%2030d" alt="klpod221" />
     <img align="center" src="https://img.shields.io/endpoint?url=https://wakapi.klpod221.com/api/compat/shields/v1/klpod221/interval:all_time&label=All%20time&color=blue" alt="klpod221" />
 <p align="left">
