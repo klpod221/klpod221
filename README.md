@@ -16,4 +16,4 @@
     <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.com&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=All+Time+Stats&layout=compact" alt="klpod221" />
 </p>
 
-<sub><sup>Don't look at my Graph Contributions, it's fake</sup></sub>
+<sub><sup><sup>Don't look at my Graph Contributions, it's fake</sup></sub></sub>
