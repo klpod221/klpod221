@@ -1,19 +1,35 @@
-<h1 align="left">Hi 👋, I'm klpod221</h1>
-<h3 align="left">A passionate Full-Stack web developer from Viet Nam</h3>
-<p align="left">"I use Arch, btw"</p>
+<h1 align="left">Hi, I'm <b>klpod221</b> 👋</h1>
 
-<p align="left">
-    <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile%20views&color=0e75b6&style=flat" alt="klpod221" />
+<p><b>Full-Stack Developer</b> &bull; <b>System Administrator</b> &bull; <b>Linux Enthusiast</b></p>
+
+---
+
+### 🧑‍💻 About me
+
+- 👨‍💻 My real name is <b>Bùi Thanh Xuân</b> (aka <b>klpod221</b>)
+- 🏠 Based in Vietnam
+- 🛠 I love building apps, automating tasks, and tinkering with Linux servers
+- 🌱 Always learning new tech and best practices
+- 🐧 I use Arch, btw
+
+### 🌐 Connect with me
+
+<a href="https://klpod221.com" target="_blank">Portfolio</a> &nbsp;|&nbsp;
+<a href="mailto:klpod221@gmail.com" target="_blank">Email</a> &nbsp;|&nbsp;
+<a href="https://github.com/klpod221" target="_blank">GitHub</a> &nbsp;|&nbsp;
+<a href="https://www.facebook.com/klpod221" target="_blank">Facebook</a>
+
+---
+
+<p>
+    <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile+views&color=0e75b6&style=flat" alt="klpod221" />
 </p>
 
-<p align="left">
-    <img align="center" src="https://wakapi.klpod221.com/api/badge/klpod221/interval:today?label=today" alt="klpod221" />
-    <img align="center" src="https://wakapi.klpod221.com/api/badge/klpod221/klpod221/interval:30_days?label=last%2030d" alt="klpod221" />
-    <img align="center" src="https://img.shields.io/endpoint?url=https://wakapi.klpod221.com/api/compat/shields/v1/klpod221/interval:all_time&label=All%20time&color=blue" alt="klpod221" />
-</p>
+<details>
+<summary>📈 My GitHub Stats</summary>
 
 <p align="left">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=klpod221&api_domain=wakapi.klpod221.com&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Stats+%28All+Time%29&layout=compact" alt="klpod221" />
+    <img src="https://github-readme-stats.vercel.app/api?username=klpod221&show_icons=true&theme=tokyonight" alt="klpod221's GitHub stats" height="150"/>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=klpod221&layout=compact&theme=tokyonight" alt="Top Langs" height="150"/>
 </p>
-
-<sub><sup><sup>Don't look at my Graph Contributions, it's fake</sup></sub></sub>
+</details>
