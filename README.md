@@ -6,7 +6,7 @@
 
 ### 🧑‍💻 About me
 
-- 👨‍💻 My real name is <b>Bùi Thanh Xuân</b> (aka <b>klpod221</b>)
+- 👨‍💻 My real name is <b>Bùi Thanh Xuân</b>
 - 🏠 Based in Vietnam
 - 🛠 I love building apps, automating tasks, and tinkering with Linux servers
 - 🌱 Always learning new tech and best practices
