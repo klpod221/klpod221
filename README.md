@@ -31,12 +31,3 @@
 <p>
     <img src="https://komarev.com/ghpvc/?username=klpod221&label=Profile+views&color=0e75b6&style=flat" alt="klpod221" />
 </p>
-
-<details>
-<summary>📈 My GitHub Stats</summary>
-
-<p align="left">
-    <img src="https://github-readme-stats.vercel.app/api?username=klpod221&show_icons=true&theme=tokyonight" alt="klpod221's GitHub stats" height="150"/>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=klpod221&layout=compact&theme=tokyonight" alt="Top Langs" height="150"/>
-</p>
-</details>
